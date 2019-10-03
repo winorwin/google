@@ -1,0 +1,281 @@
+html, body {
+    margin: 0;
+    min-width: 980px; 
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-top {
+    float: right;
+    padding-right: 30px;
+    margin-top: 15px;
+    display: flex;
+    text-decoration: none;    
+    align-items: center;
+}
+
+.a-gmail,
+.a-user,
+.a-apps,
+.a-images
+ {
+     display: inline-block;
+     text-decoration: none;
+     padding-left: 12px;
+     color: rgba(0, 0, 0, 87);
+     line-height: 24px;
+     vertical-align: middle;
+     font-family: arial, sans-serif;
+     font-size: 13px;
+
+}
+
+
+
+.appcon {
+    background-image: url(images/apps-icon.png);
+    background-size: contain;
+    text-decoration: none;
+    color: #000;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    cursor: pointer;
+    opacity: 0.55;
+}
+
+
+.appcon:hover {
+    opacity: 1;   
+
+}
+
+.a-gmail:hover,
+.a-images:hover
+ {
+    text-decoration: underline;
+}
+
+
+.a-user {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    align-self: center;
+}
+.main {
+    text-align: -webkit-center;
+}
+
+.logo {
+    height: 233px;
+    padding-top: 80px;    
+    height: 233px;
+}
+    
+.main .logo img {
+    height:92px;
+    width:272px;
+    padding-top: 109px;
+}
+
+.outer-search {
+    position:relative;
+    margin:0 auto;
+    padding-left:12px;
+    padding-right: 8px;
+    padding-top: 0px;
+}
+
+.search-wrap:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.search-wrap {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width:582px;
+}
+
+.deep-wrap {
+    flex: 1;
+    display: flex;
+    padding: 0 8px 0 16px;
+    padding-left: 14px;    
+    align-items: center;
+}
+
+.search-area {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+
+.search-bar {
+    position: relative;
+    margin-top: -37;
+    padding: 0;
+    width: 387px;
+    height: 34px;
+    outline: none;
+    border: none;
+    padding-left: 12px;
+    padding-right: 12px;
+
+
+}
+
+.voice-search {
+    background: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    position: relative;
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    vertical-align: middle;
+}
+
+.voice-search-area {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+
+.search-icon {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+
+}
+
+.btn-a,
+.btn-b {
+    height: 36px;
+    background: #F2F2F2;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    line-height: 27px;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #5F6368;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 54px;
+    text-align: center;
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #f2f2f2);
+
+}
+
+.txt-btn-area {
+    padding: 18px 0px 0px;
+    height: 70px;
+}
+
+.btn-a:hover,
+.btn-b:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1))
+    color: #222;
+}
+
+.offer {
+    font-size: 13px;
+    line-height: 28px;
+    display: inline-block;
+}
+
+.language {
+    padding: 0 3px;
+    color: #1a0dab;
+    text-decoration: none;
+
+}
+
+.language:hover {
+    text-decoration: underline;
+}
+
+.whole-offer {
+    margin-bottom: 24px;
+}
+
+.main-content {
+    padding-bottom: 35px;
+}
+
+.btm-right {
+    float: right;
+    display: block;
+}
+
+.btm-left {
+    display: inline-block;
+}
+.ad,
+.bu,
+.ab,
+.ho,
+.pr,
+.te,
+.se {
+    display: inline-block;
+    padding-left: 27px;
+    color: #5F6368;
+    font: 13px arial, sans-serif;
+    text-decoration: none;
+
+}
+
+.dr{
+    padding-left: 27px;
+    font-size: 15px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.54);
+    line-height: 40px;
+}
+    
+
+.btm {
+    display: block;
+    font: arial, sans-serif;
+    color: #222;
+    font-size: 13px;
+    line-height: 40px;
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 980px;
+    background: #f2f2f2;
+    bottom: 0;
+}
+
+.btm-low,
+.btm-up {
+    border-top: 1px solid #e4e4e4;
+    padding-right: 27px;
+
+}
+
+
